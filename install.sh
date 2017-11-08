@@ -646,7 +646,7 @@ cd /usr/src/
 echo -e "\n-- Downloading FOS-Streaming core on GitHub, Please wait, this may take several minutes, the installer will continue after this is complete!"
 # Get latest FOS-Streaming
 while true; do
-    wget -nv -O FOS-Streaming-v1-$FOS_STREAMING_CORE_VERSION.zip https://codeload.github.com/zgelici/FOS-Streaming-v1/zip/$FOS_STREAMING_CORE_VERSION
+    wget -nv -O FOS-Streaming-v1-$FOS_STREAMING_CORE_VERSION.zip https://codeload.github.com/grimelinse/FOS-Streaming/zip/$FOS_STREAMING_CORE_VERSION
     if [[ -f FOS-Streaming-$FOS_STREAMING_CORE_VERSION.zip ]]; then
         break;
     else
